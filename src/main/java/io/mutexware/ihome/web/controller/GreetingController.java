@@ -16,6 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 public class GreetingController {
 
     private UserRolesRepository userRolesRepository;
+
     @Autowired
     public GreetingController(UserRolesRepository userRolesRepository) {
         this.userRolesRepository = userRolesRepository;

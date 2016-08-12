@@ -9,5 +9,7 @@ import java.util.List;
  */
 public interface UserService {
     User findUser(String email);
-    public List<String> getUserRoles(User user);
+    List<String> getUserRoles(User user);
+    User addUser(User user);
+
 }

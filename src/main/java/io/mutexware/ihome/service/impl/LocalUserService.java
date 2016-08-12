@@ -33,4 +33,10 @@ public class LocalUserService implements UserService {
     public List<String> getUserRoles(User user) {
         return userRolesRepository.findRolesByEmail(user.getEmail());
     }
+
+    @Override
+    public User addUser(User user) {
+        //TODO implement stub
+        return null;
+    }
 }

@@ -7,5 +7,6 @@ import io.mutexware.ihome.model.User;
  */
 public interface RegistrationService {
     User registerUser(String email, String password);
+    boolean userExists(String email);
     User activateUser(String email, String token);
 }
